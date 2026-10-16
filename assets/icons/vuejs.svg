@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="148" viewBox="0 0 120 148" role="img" aria-label="Vue.js">
+  <title>Vue.js</title>
+  <style>.n{fill:#1f2328}@media (prefers-color-scheme: dark){.n{fill:#e6edf3}}</style>
+  <rect width="120" height="120" rx="27" fill="#242938"/>
+  <g transform="translate(22.00 22.00) scale(3.1667)" fill="#4fc08d"><path d="M24 1.61h-9.94L12 5.16 9.94 1.61H0l12 20.78ZM12 14.08 5.16 2.23h4.43L12 6.41l2.41-4.18h4.43Z"/></g>
+  <text class="n" x="60.0" y="141" text-anchor="middle" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.0" font-weight="600">Vue.js</text>
+</svg>

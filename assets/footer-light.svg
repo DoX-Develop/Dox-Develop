@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Pied de page : © 2026 DoX, Développeur Full-Stack, Libreville, Gabon">
+  <title>© 2026 DoX · Développeur Full-Stack · Libreville, Gabon</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2a78e0"/><stop offset="0.5" stop-color="#5aa9f2"/><stop offset="0.82" stop-color="#b9dcfa"/><stop offset="1" stop-color="#ffe3bd"/></linearGradient>
+    <linearGradient id="tint" x1="0" y1="30" x2="0" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1a4a" stop-opacity="0.40"/><stop offset="1" stop-color="#0a1a4a" stop-opacity="0.30"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="30" x2="0" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.03"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.07"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="70" y1="30" x2="1130" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="glint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.30"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="panel"><rect x="70" y="30" width="1060" height="110" rx="28"/></clipPath>
+    <filter id="frost" filterUnits="userSpaceOnUse" x="0" y="0" width="1200" height="170"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="cloud" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+    <g id="sky">
+      <g filter="url(#cloud)" fill="#ffffff" fill-opacity="0.65">
+        <ellipse cx="240" cy="20" rx="130" ry="14"/><ellipse cx="190" cy="12" rx="62" ry="15"/>
+        <animateTransform attributeName="transform" type="translate" values="-400 0;1100 0" dur="44s" begin="-10s" repeatCount="indefinite"/></g>
+      <g filter="url(#cloud)" fill="#ffffff" fill-opacity="0.60">
+        <ellipse cx="380" cy="150" rx="140" ry="13"/><ellipse cx="330" cy="142" rx="66" ry="14"/>
+        <animateTransform attributeName="transform" type="translate" values="-500 0;1000 0" dur="52s" begin="-30s" repeatCount="indefinite"/></g>
+    </g>
+  </defs>
+
+  <rect width="1200" height="170" fill="url(#bg)"/>
+
+  <!-- Ciel net autour du panneau, dépoli à travers le verre -->
+  <use href="#sky"/>
+  <g clip-path="url(#panel)">
+    <rect width="1200" height="170" fill="url(#bg)"/>
+    <g filter="url(#frost)"><use href="#sky"/></g>
+    <rect x="70" y="30" width="1060" height="110" fill="url(#tint)"/>
+    <rect x="70" y="30" width="1060" height="110" fill="#ffffff" fill-opacity="0.07"/>
+    <rect x="70" y="30" width="1060" height="110" fill="url(#sheen)"/>
+    <!-- Reflet : une bande de lumière traverse le panneau de temps en temps -->
+    <g>
+      <rect x="-200" y="0" width="120" height="170" fill="url(#glint)" transform="skewX(-22)"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;1700 0;1700 0" keyTimes="0;0.4;1" calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1" dur="12s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <rect x="70.75" y="30.75" width="1058.5" height="108.5" rx="27.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+
+  <!-- Textes -->
+  <text x="600" y="82" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.5" fill="#ffffff">© 2026 DoX</text>
+  <text x="600" y="115" text-anchor="middle" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#ffffff" fill-opacity="0.88">Développeur Full-Stack</text>
+</svg>

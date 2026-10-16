@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="148" viewBox="0 0 120 148" role="img" aria-label="CSS">
+  <title>CSS</title>
+  <style>.n{fill:#1f2328}@media (prefers-color-scheme: dark){.n{fill:#e6edf3}}</style>
+  <rect width="120" height="120" rx="27" fill="#1572B6"/>
+  <g transform="translate(22.00 22.00) scale(0.1484)" fill="#FFFFFF"><path d="m480 32-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82z"/></g>
+  <text class="n" x="60.0" y="141" text-anchor="middle" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.0" font-weight="600">CSS</text>
+</svg>

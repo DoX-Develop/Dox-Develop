@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="84" viewBox="0 0 48 84" role="img" aria-label="Descendre vers la section suivante">
+  <title>Descendre vers la section suivante</title>
+  <defs>
+    <linearGradient id="stem" x1="0" y1="4" x2="0" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#c4b5fd" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#8fb4ff"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-50%" width="300%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- Toute la flèche descend doucement, puis remonte -->
+  <g>
+    <!-- Lueur (visible surtout en mode sombre) -->
+    <g fill="none" stroke="#8fb4ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.75" filter="url(#glow)">
+      <path d="M24 30 V52"/>
+      <path d="M10 40 L24 56 L38 40"/>
+    </g>
+    <path d="M24 4 V52" fill="none" stroke="url(#stem)" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M10 40 L24 56 L38 40" fill="none" stroke="#8fb4ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Écho : un second chevron apparaît et s'efface plus bas -->
+    <path d="M10 60 L24 76 L38 60" fill="none" stroke="#8fb4ff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.5;1" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="2.2s" repeatCount="indefinite"/>
+  </g>
+</svg>

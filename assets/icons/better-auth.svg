@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="148" viewBox="0 0 120 148" role="img" aria-label="Better Auth">
+  <title>Better Auth</title>
+  <style>.n{fill:#1f2328}@media (prefers-color-scheme: dark){.n{fill:#e6edf3}}</style>
+  <rect width="120" height="120" rx="27" fill="#242938"/>
+  <g transform="translate(22.00 22.00) scale(3.1667)" fill="#ffffff"><path d="M0 3.39v17.22h5.783v-5.55h6.434V8.939H5.783V3.39Zm12.217 5.55h5.638v6.122h-5.638v5.548H24V3.391H12.217Z"/></g>
+  <text class="n" x="60.0" y="141" text-anchor="middle" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.0" font-weight="600">Better Auth</text>
+</svg>
