@@ -32,7 +32,9 @@
   <tr>
     <td width="56%" valign="top">
       <h3>Qui suis-je ?</h3>
-      <p></p>
+      <p>Développeur fullstack à Libreville, je construis des applications web et mobiles avec JavaScript et TypeScript. Mon objectif est simple : un code lisible, modulaire et sécurisé, qui reste facile à faire évoluer. Je m’appuie pour cela sur les principes SOLID, le clean code et la clean architecture.</p>
+      <p>Je pense à la sécurité dès le départ plutôt qu’à la fin. Les données sont vérifiées côté serveur, les accès sont contrôlés, et une fonctionnalité n’est terminée que lorsqu’elle est testée.</p>
+      <p>J’apprends en continu et je reste ouvert aux nouveaux projets, au Gabon comme ailleurs. N’hésitez pas à m’écrire !</p>
     </td>
     <td width="44%" valign="top" align="center">
       <h3>Suivez-moi</h3>
@@ -144,7 +146,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
-  <img src="./assets/footer-light.svg" alt="© 2026 DoX · Développeur Full-Stack · Libreville, Gabon" width="100%" />
+  <img src="./assets/footer-light.svg" alt="Merci pour votre visite !" width="100%" />
 </picture>
 
 </div>

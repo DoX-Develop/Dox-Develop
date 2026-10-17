@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Pied de page : © 2026 DoX, Développeur Full-Stack, Libreville, Gabon">
-  <title>© 2026 DoX · Développeur Full-Stack · Libreville, Gabon</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Pied de page : Merci pour votre visite !">
+  <title>Merci pour votre visite !</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#050816"/><stop offset="0.55" stop-color="#101a50"/><stop offset="0.88" stop-color="#3a2a78"/><stop offset="1" stop-color="#c0583c"/></linearGradient>
     <linearGradient id="tint" x1="0" y1="30" x2="0" y2="140" gradientUnits="userSpaceOnUse">
@@ -43,7 +43,13 @@
   </g>
   <rect x="70.75" y="30.75" width="1058.5" height="108.5" rx="27.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
 
-  <!-- Textes -->
-  <text x="600" y="82" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.5" fill="#ffffff">© 2026 DoX</text>
-  <text x="600" y="115" text-anchor="middle" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#ffffff" fill-opacity="0.88">Développeur Full-Stack</text>
+  <!-- Message de remerciement, centré dans le panneau. Le clin d'œil est dessiné (pas un caractère emoji) :
+       ainsi il s'affiche à l'identique partout, quelle que soit la police du visiteur. -->
+  <text x="575.0" y="96.0" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="-0.3" fill="#ffffff">Merci pour votre visite !</text>
+  <g transform="translate(798.2 85.0)">
+    <circle r="18" fill="#ffcb3d"/>
+    <circle cx="-6.5" cy="-4" r="2.6" fill="#3b2a12"/>
+    <path d="M2.5 -3.6 Q6.5 -8 10.5 -3.6" fill="none" stroke="#3b2a12" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M-8 4.5 Q0 12.5 8 4.5" fill="none" stroke="#3b2a12" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
 </svg>
