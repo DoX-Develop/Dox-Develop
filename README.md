@@ -40,9 +40,9 @@
     </td>
     <td width="35%" valign="top" align="center">
       <h3>Suivez-moi</h3>
-      <a href="https://www.linkedin.com/in/dodge-nguia"><picture><source media="(max-width: 600px)" srcset="./assets/icons/mobile/linkedin.svg" /><img src="./assets/icons/linkedin.svg" alt="LinkedIn" /></picture></a>
+      <a href="https://www.linkedin.com/in/dox-dev"><picture><source media="(max-width: 600px)" srcset="./assets/icons/mobile/linkedin.svg" /><img src="./assets/icons/linkedin.svg" alt="LinkedIn" /></picture></a>
       <a href="https://www.youtube.com/@dox-dev"><picture><source media="(max-width: 600px)" srcset="./assets/icons/mobile/youtube.svg" /><img src="./assets/icons/youtube.svg" alt="YouTube" /></picture></a>
-      <a href="https://x.com/DodgeNguia"><picture><source media="(max-width: 600px)" srcset="./assets/icons/mobile/x.svg" /><img src="./assets/icons/x.svg" alt="X" /></picture></a>
+      <a href="https://x.com/DoX_Develop"><picture><source media="(max-width: 600px)" srcset="./assets/icons/mobile/x.svg" /><img src="./assets/icons/x.svg" alt="X" /></picture></a>
       <a href="https://www.tiktok.com/@dox.dev"><picture><source media="(max-width: 600px)" srcset="./assets/icons/mobile/tiktok.svg" /><img src="./assets/icons/tiktok.svg" alt="TikTok" /></picture></a>
       <hr />
       <h3>Contactez-moi</h3>
