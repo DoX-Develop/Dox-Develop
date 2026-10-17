@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="54.3" viewBox="0 0 120 148" role="img" aria-label="Vercel">
+  <title>Vercel</title>
+  <style>.n{fill:#1f2328}@media (prefers-color-scheme: dark){.n{fill:#e6edf3}}</style>
+  <rect width="120" height="120" rx="27" fill="#242938"/>
+  <g transform="translate(22.00 22.00) scale(3.1667)" fill="#ffffff"><path d="m12 1.608 12 20.784H0Z"/></g>
+  <text class="n" x="60.0" y="141" text-anchor="middle" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.0" font-weight="600">Vercel</text>
+</svg>

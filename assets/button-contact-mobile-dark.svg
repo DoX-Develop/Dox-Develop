@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="38.2" viewBox="0 0 320 72" role="img" aria-label="Me contacter">
+  <title>Me contacter</title>
+  <defs>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pill"><rect x="12" y="6" width="296" height="60" rx="30"/></clipPath>
+  </defs>
+
+  <!-- Le verre : une pastille teintée et translucide, à plat -->
+  <rect x="12" y="6" width="296" height="60" rx="30" fill="#8aa4ff" fill-opacity="0.16"/>
+
+  <!-- Le reflet : une seule bande de lumière balaie le verre, puis une pause -->
+  <g clip-path="url(#pill)">
+    <g>
+      <rect x="-90" y="-10" width="60" height="92" fill="url(#sweep)" transform="skewX(-22)"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;470 0;470 0" keyTimes="0;0.42;1" calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1" dur="6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Fin liseré de verre -->
+  <rect x="12.5" y="6.5" width="295" height="59" rx="29.5" fill="none" stroke="#dbe8ff" stroke-opacity="0.38" stroke-width="1"/>
+
+  <!-- Texte et icône -->
+  <text x="142.0" y="44.4" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="0.4" fill="#ffffff">Me contacter</text>
+  <g transform="translate(237.2 26.0)"><g fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><rect x="1.5" y="3.5" width="17" height="13" rx="3"/><path d="M2.5 5.5 L10 11.5 L17.5 5.5"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.6;0 0" dur="2.2s" repeatCount="indefinite"/></g></g>
+</svg>
